@@ -4,7 +4,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://sayandeep-24.github.io/Fylo-Landing-Page/
 
 ### Built with
 
