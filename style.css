@@ -1,0 +1,381 @@
+.main
+{
+    background-color:  hsl(218, 24%, 15%);
+    background-image: url('images/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;  
+    color: hsl(0, 0%, 100%);
+}
+
+body
+{
+    box-sizing : border-box;
+}
+
+
+
+.illustration-intro
+{
+    max-width : 700px;
+    text-align: center;
+}
+.illustration-intro-image
+{
+    width : 80%;
+    height : 80%;
+}
+.access-anywhere-image
+{
+    max-width : 150px;
+    text-align: center;
+}
+.properties-text-header
+{
+    max-width : 400px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight : 700;
+    font-size : 0.9em;
+    padding : 0.2em;
+}
+.properties-text-body
+{
+    max-width : 300px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight : 400;
+    font-size : 0.85em;
+    padding : 0.3em;
+}
+.properties-image
+{
+    height : 90px;
+    width : 90px;
+    padding : 1em;
+}
+.productive-text-outer-box
+{
+    min-height : 60%;
+    padding-left : 2em;
+}
+.productive-text
+{
+    height :100%;
+    padding :10px;
+    text-align: left;
+    font-family: 'Raleway';
+    font-weight : 400;
+    font-size : 0.75em;
+}
+
+.heading-text
+{
+    height :100%;
+    padding : 10px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight : 700;
+    font-size : 1.5em;
+    max-width : 550px;
+}
+.heading-text-productive
+{
+    text-align: left;
+}
+.arrow-icon
+{
+    height : 12px;
+    width : 15px;
+}
+.productive-text-last
+{
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    color : hsl(176, 68%, 64%);
+    padding : 0;
+    max-width : 135px;
+}
+
+.FYLO-image
+{
+    padding : 1.5em;
+    min-width: 150px;
+    width : 30%;
+}
+
+.header-items
+{
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: 'Raleway';
+    text-align: center;
+    padding : 0;
+}
+
+.intro-body-text
+{
+    font-family: 'Raleway';
+    font-weight : 400;
+    font-size : 0.8em;
+    padding : 0.5em;
+    max-width : 400px;
+    text-align: center;
+}
+.get-started-button
+{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  
+    margin: 1em;
+  
+    border: solid 2px transparent;
+    border-radius: 5em;
+  
+    padding: 0.8em 5em;
+  
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(198, 60%, 50%);
+     
+}
+.access-security-block
+{
+    margin : 2em;
+    margin-top : 7em;
+}
+.collaboration-store-block
+{
+    margin : 2em;
+    margin-bottom : 10em;
+}
+.stay-productive-image
+{
+    max-width : 100%;
+    max-height: 100%;
+}
+
+.quotes-outer-box
+{
+    padding : 1em;
+    margin-top: 8em;
+    margin-bottom : 16em;
+}
+.quotes-box
+{
+    width : 90%;    
+}
+.quotes
+{
+    box-sizing: content-box;
+    padding : 20px;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: 'open-sans';
+    text-align: left;
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 5px 5px 5px   hsl(220, 31%, 13%);
+    position : relative;
+    transform-style: preserve-3d;
+    border-radius : 3px;
+    color : hsla(0, 0%, 89%, 0.863);
+}
+.profile-image
+{
+    height : 30px;
+    width : 20px;
+    border-radius: 100%;
+}
+.profile-name
+{
+    font-family: 'open-sans';
+    font-weight: 700;
+    font-size: 10px;
+}
+.profile-designation
+{
+    font-family: 'open-sans';
+    font-weight: 400;
+    font-size : 8px;
+}
+.profile-box
+{
+    padding-top : 15px;
+}
+.quotes-image
+{
+    position : absolute;
+    top : -35px;
+    left: -10px;
+    transform: translateZ(-10px)
+}
+.sign-up-box-outer
+{
+    position: relative;
+    width : 100%;
+}
+
+.sign-up-box
+{
+    width : 90%;
+    max-width: 700px;
+    text-align: center;
+    padding-top : 20px;
+    box-sizing : content-box;
+    border-radius : 10px;
+    background-color:  hsl(217, 23%, 18%);
+    position : absolute;
+    top : -125px;
+    margin-left : 1.5em;
+}
+.sign-up-heading
+{
+    font-family: 'Raleway';
+    font-weight : 700;
+    font-size: 1.5em;
+    padding : 10px;
+}
+.sign-up-text
+{
+    font-family: 'Raleway';
+    font-weight : 400;
+    font-size: 0.8em;
+    max-width : 85%;
+    padding-bottom : 10px;
+}
+input:focus 
+{
+    outline:none;
+}
+.email-id
+{
+    display: inline-block;
+    text-decoration: none;  
+    border-radius: 5em;
+    margin : 15px;
+    padding: 10px 30px;
+    min-width : 60%;
+}
+.submit-button
+{
+    border-radius: 3rem;
+    padding: 14px 25px;
+    border : none;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(198, 60%, 50%);
+    font-size: 0.7em;
+}
+
+.footer
+{
+   background-color: hsl(215, 59%, 10%);
+   color: hsl(0, 0%, 100%);
+   padding : 80px;
+   padding-top : 12em;
+   font-family: 'Raleway';
+   font-weight : 400;
+   font-size : 13px;
+   display : flex;
+   justify-content: center;
+}
+.footer-outerbox
+{
+    width : 100%;
+    min-width : 250px; 
+}
+.logo-footer
+{
+    width : 150px;
+    padding : 20px 0;
+}
+.phone-email-footer
+{
+    padding-bottom : 10px;
+}
+.footer-links
+{
+    padding-bottom : 10px;
+    padding-left : 5em;
+}
+.contact-links
+{
+    padding-bottom : 10px;
+    padding-left : 1em;
+}
+.icons
+{
+    border : 1px solid white;
+    border-radius: 100%;
+    padding : 7px;
+}
+
+
+@media (max-width : 767px)
+{
+    .second-icon
+    {
+        margin-top : 20px;
+    }
+    .productive-image-box
+    {
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .stay-productive-image
+    {
+        max-width : 70%;
+        max-height: 70%;
+    }
+    .productive-text-outer-box
+    {
+        margin-left: 1.5em;
+    }
+    .quotes
+    {
+        margin-bottom : 30px;
+    }
+    .quotes-outer-box
+    {
+        padding : 1em;
+        margin-top: 8em;
+        margin-bottom : 12em;
+    }
+    .location
+    {
+        margin-bottom : 1em;
+    }
+    .phone-email-footer
+    {
+        margin-bottom : 1em;
+    }
+    .footer-links
+    {
+        padding-left : 1em;
+    }
+    .footer-links-block
+    {
+        margin : 2em 0;
+    }
+    .social-media-block
+    {
+        margin : 2em 0;
+    }
+
+}
+@media (max-width : 575px)
+{
+    .main
+    {
+        background-image: none;
+    }
+    .collaboration-store-block
+    {
+        margin-bottom : 8em;
+    }
+    .logo-footer
+    {
+        width : 150px;
+        padding-top : 7em;
+        padding-bottom : 3em;
+    }
+}
